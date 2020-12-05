@@ -6,7 +6,7 @@
       "description": "Snapdragon 865, Яркий дисплей, отличная автономность",
       "image": "https://www.notebookcheck-ru.com/uploads/tx_nbc2/SamsungGalaxyS20Ultra__1_.JPG",
       "price": 55000,
-      "options": ["32gb", "64gb", "128gb"]
+      "availableOptions": ["32gb", "64gb", "128gb"]
     },
     {
       "_id": "phone2",
@@ -14,7 +14,7 @@
       "description": "То же самое, но дешевле",
       "image": "https://mi-shop.com/upload/resize_cache/iblock/9d9/445_473_2/9d90b64a1323a17820f6d716361c9934.jpg",
       "price": 32000,
-      "options": ["32gb", "64gb", "128gb"]
+      "availableOptions": ["32gb", "64gb", "128gb"]
     },
     {
       "_id": "phone3",
@@ -22,7 +22,7 @@
       "description": "Iphone - Тут все понятно",
       "image":  "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_announce-iphone12pro_10132020.jpg.landing-big_2x.jpg",
       "price": 100000,
-      "options": ["64gb", "128gb", "256gb"]
+      "availableOptions": ["64gb", "128gb", "256gb"]
     },
     {
       "_id": "phone4",
@@ -30,7 +30,7 @@
       "description": "Киберпанк эдишн",
       "image":  "https://images.firstpost.com/wp-content/uploads/2020/11/oneplus-cyber-1280.jpg",
       "price": 42000,
-      "options": ["64gb", "128gb", "256gb"]
+      "availableOptions": ["64gb", "128gb", "256gb"]
     },
     {
       "_id": "phone5",
@@ -38,7 +38,7 @@
       "description": "Нестареющая классика",
       "image":  "https://static.pleer.ru/i/p/379426/379426.jpg",
       "price": 3000,
-      "options": ["8mb"]
+      "availableOptions": ["8mb"]
     },
     {
       "_id": "phone6",
@@ -46,7 +46,7 @@
       "description": "Современный смартфон Huawei",
       "image":  "https://specifications-pro.com/wp-content/uploads/2020/06/Huawei-P50-Pro-600x600.jpg",
       "price": 50000,
-      "options": ["8mb"]
+      "availableOptions": ["8mb"]
     }
   ]
 }
