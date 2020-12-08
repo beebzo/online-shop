@@ -4,7 +4,7 @@ class Filter extends Component {
     render() {
         return (
             <div className='filter'>
-                <div className='filter-result'>{this.props.count} Товары</div>
+                <div className='filter-result'>{this.props.count} Товар(ов)</div>
                 <div className='filter-sort'>
                     Сортировать{' '}
                     <select value={this.props.sort} onChange={this.props.sortProducts}>

@@ -10,12 +10,12 @@ class Products extends Component {
                         <li key={product._id}>
                         <div className='product'>
                             <a href={'#' + product._id}>
-                                <img src={product.image} alt={product.title}></img>
+                                <img src={product.image} alt={product.title} />
                             <p>{product.title}</p>
                             </a>
                             <div className='product-price'>
                                 <div>{formatCurrency(product.price)}</div>
-                                <button className='button primary'>Add to Cart</button>
+                                <button onClick={()=> this.props.addToCart(product)} className='button primary'>Add to Cart</button>
                             </div>
                         </div>
                         </li>
