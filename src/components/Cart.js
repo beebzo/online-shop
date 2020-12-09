@@ -1,29 +1,29 @@
 import React, {Component} from 'react';
 import formatCurrency from "../util";
 
-class Cart extends Component {
+export default class Cart extends Component {
     constructor(props) {
         super(props);
         this.state = {
             name:'',
             email:'',
             address:'',
-            showCheckout: false
-        }
+            showCheckout: false,
+        };
     }
     handleInput = (e) => {
-    this.state({[e.target.name]: e.target.value})
-    }
+    this.setState({[e.target.name]: e.target.value});
+    };
     createOrder = (e) => {
         e.preventDefault();
         const order = {
             name: this.state.name,
             email: this.state.email,
             address: this.state.address,
-            cartItems: this.props.cartItems
-    }
-    this.props.createOrder(order)
-}
+            cartItems: this.props.cartItems,
+    };
+    this.props.createOrder(order);
+};
     render() {
         const {cartItems} = this.props;
         return (
@@ -113,5 +113,3 @@ class Cart extends Component {
         );
     }
 }
-
-export default Cart;
