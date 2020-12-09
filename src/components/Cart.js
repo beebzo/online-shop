@@ -100,7 +100,7 @@ export default class Cart extends Component {
                                  </input>
                                </li>
                                <li>
-                                  <button classname='button primary' type='submit'>Отправить</button>
+                                  <button className='button primary' type='submit'>Отправить</button>
                                </li>
                             </ul>
                         </form>
